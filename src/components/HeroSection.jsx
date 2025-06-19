@@ -4,24 +4,35 @@ import plumProduct from "../assets/bfa6cb471def1625f335564f2d78bc0748f6b64c.jpg"
 
 const HeroSection = () => {
   return (
-    <section className="relative bg-[#EFF5E1] sm:px-6 lg:px-12 overflow-hidden">
-      {/* Top Row */}
-      <div className="flex flex-col lg:flex-row justify-center items-center lg:items-start gap-y-12 lg:gap-[150px] pt-12">
-        {/* Paragraph */}
-        <p className="indent-[60px] text-[18px] sm:text-[20px] font-normal text-gray-700 w-full max-w-[330px] text-center lg:text-left">
+    <section className="relative bg-[#EFF5E1] text-[#2D3B36] overflow-hidden pt-[98px]">
+      {/* FIRST ROW */}
+      <div className="flex flex-col md:flex-row justify-center items-center gap-6">
+        {/* box1: Paragraph */}
+        <p
+          className="order-2 text-[16px] font-[400] leading-[22px] tracking-[-0.05em] w-[342px]
+          md:indent-[74px] md:text-[14px] md:leading-[100%] md:w-[234px]
+          2xl:indent-[105px] 2xl:text-[20px] 2xl:w-[335px] 2xl:mr-[326px]"
+        >
           Transform your skincare routine with premium products that restore,
           protect, and enhance your natural glow every day.
         </p>
-
-        {/* Heading */}
-        <h1 className="text-[60px] sm:text-[75px] md:text-[90px] font-bold uppercase leading-[1.1] text-center lg:text-left">
-          GLOW <br /> NATUR-
+        {/* box2: Heading */}
+        <h1
+          className="order-1 relative text-[75px] font-[900] leading-[60px] tracking-[-0.05em] 
+          md:text-[135px] md:leading-[110px] md:tracking-[-0.03em] md:font-[800] 
+          2xl:font-[700] 2xl:leading-[90px] 2xl:text-[100px] 2xl:mr-[438px] uppercase"
+        >
+          GLOW
+          <span className="inline-block sm:inline-block md:inline-block 2xl:hidden">
+            WWW
+          </span>
           <br />
+          NATUR<span className="hidden 2xl:inline-block">-</span>
+          <br className="hidden 2xl:inline-block" />
           ALLY
         </h1>
-
-        {/* Top Right Image */}
-        <div className="w-[180px] sm:w-[200px] md:w-[222px]">
+        {/* box3: Product Image */}
+        <div className="order-4 relative flex md:w-[335px]">
           <img
             src={plumProduct}
             alt="Plum Product"
@@ -30,37 +41,37 @@ const HeroSection = () => {
         </div>
       </div>
 
-      {/* CTA Button */}
-      <div className="mt-12 lg:mt-0 flex justify-center lg:block relative lg:top-[300px] lg:left-[150px]">
-        <button className="bg-[#2D3B36] text-[#EFF5E1] px-6 py-2 rounded-full w-[180px] h-[50px] hover:bg-black transition">
-          Shop Now
-        </button>
-      </div>
-
-      {/* Woman Image and Background Text */}
-      <div className="relative z-10 flex justify-center mt-10 mb-2">
-        {/* SKINCARE Text Behind */}
-        <div className="absolute -bottom-8 left-1/2 -translate-x-1/2 z-0 pointer-events-none">
-          <div className="text-[#2D3B36] text-[100px] sm:text-[160px] md:text-[200px] lg:text-[240px] font-extrabold uppercase whitespace-nowrap leading-none">
-            SKINCARE
-          </div>
+      {/* SECOND ROW */}
+      <div className="order-2 flex flex-col md:flex-row justify-center items-center gap-6 mt-10 mb-2">
+        {/* box1: Shop Now Button */}
+        <div className="relative w-[178px] h-[50px] flex md:justify-end md:items-start">
+          <button className="bg-[#2D3B36] text-[#EFF5E1] px-6 py-2 rounded-full w-[180px] h-[50px] hover:bg-black transition">
+            Shop Now
+          </button>
         </div>
-
-        {/* Woman Image */}
-        <img
-          src={womanImage}
-          alt="Avocado woman"
-          className="relative z-10 rounded-3xl w-[280px] sm:w-[400px] md:w-[500px] lg:w-[610px] object-cover"
-        />
-
-        {/* Speech Bubble */}
-        <div className="absolute bottom-[10px] left-1/2 -translate-x-1/2 bg-[#EFF5E1] w-[90%] max-w-[476px] px-4 py-3 rounded-full flex items-center gap-2 border border-[#2D3B36] text-[16px] sm:text-[18px] lg:text-[20px] z-10">
+        {/* box2: Woman Image and Background Text */}
+        <div className="order-1 relative flex justify-center">
+          {/* SKINCARE Background Text */}
+          <div className="absolute -bottom-8 left-1/2 -translate-x-1/2 z-0 pointer-events-none">
+            <div className="text-[#2D3B36] text-[100px] sm:text-[160px] md:text-[200px] lg:text-[240px] font-extrabold uppercase whitespace-nowrap leading-none">
+              SKINCARE
+            </div>
+          </div>
+          {/* Woman Image */}
           <img
-            src={plumProduct}
-            alt="icon"
-            className="w-[60px] sm:w-[70px] lg:w-[80px] h-auto rounded-full border-dashed border p-0.5"
+            src={womanImage}
+            alt="Avocado woman"
+            className="relative z-10 rounded-3xl w-[280px] sm:w-[400px] md:w-[500px] lg:w-[610px] object-cover"
           />
-          <span>While giving you an invigorating cleansing experience.</span>
+          {/* Speech Bubble */}
+          <div className="absolute bottom-[10px] left-1/2 -translate-x-1/2 bg-[#EFF5E1] w-[90%] max-w-[476px] px-4 py-3 rounded-full flex items-center gap-2 border border-[#2D3B36] text-[16px] sm:text-[18px] lg:text-[20px] z-10">
+            <img
+              src={plumProduct}
+              alt="icon"
+              className="w-[60px] sm:w-[70px] lg:w-[80px] h-auto rounded-full border-dashed border p-0.5"
+            />
+            <span>While giving you an invigorating cleansing experience.</span>
+          </div>
         </div>
       </div>
     </section>
