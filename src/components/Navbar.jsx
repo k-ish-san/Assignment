@@ -6,48 +6,78 @@ import icon3 from "../assets/user.svg";
 const Navbar = () => {
   return (
     <nav className="bg-[#EFF5E1] text-[#2D3B36] font-inter">
-      <div className="max-w-[1400px] mx-auto py-[35px] px-[60px] flex justify-between items-center">
+      <div
+        className="
+          pl-[30px] pt-[37px] pr-[37px] 
+          md:pl-[40px] md:pt-[40px] md:pr-[45px]
+          2xl:pl-[100px] 2xl:pt-[50px] 2xl:pr-[110px]
+          flex 
+        "
+      >
         {/* Logo */}
-        <Link to="/" className="text-[30px] font-bold uppercase tracking-wide">
+        <Link
+          to="/"
+          className="text-[20px] md:text-[25px] 2xl:text-[30px] font-[800] uppercase"
+        >
           Skincare
         </Link>
 
         {/* Navigation Links */}
-        <div className="flex gap-12 text-[20px] font-normal tracking-[-0.05em]">
-          <Link to="/" className="hover:text-blue-500 transition">
-            All Products
-          </Link>
-          <Link to="/about" className="hover:text-blue-500 transition">
-            Serum
-          </Link>
-          <Link to="/contact" className="hover:text-blue-500 transition">
-            Sunscreen
-          </Link>
-          <Link to="/contact" className="hover:text-blue-500 transition">
-            Bundle
-          </Link>
+        <div className="flex-1 flex justify-center">
+          <div
+            className="hidden tracking-[-0.05em]
+            md:flex md:text-[12px] font-[400] md:pt-[4px] md:pb-[5px]
+            2xl:text-[20px] pt-[3px] pb-[4px]"
+          >
+            <Link to="/" className="md:ml-[65px] 2xl:ml-[461px]">
+              All Products
+            </Link>
+            <Link to="/" className="md:ml-[30px] 2xl:ml-[61px]">
+              Serum
+            </Link>
+            <Link to="/" className="md:ml-[25px] 2xl:ml-[54px]">
+              Sunscreen
+            </Link>
+            <Link
+              to="/"
+              className="md:ml-[29px] md:mr-[85px] 2xl:ml-[58px] 2xl:mr-[392px]"
+            >
+              Bundle
+            </Link>
+          </div>
         </div>
 
         {/* Right Side Icons */}
-        <div className="flex items-center gap-4 ml-10">
-          {/* Cart Icon + Text */}
-          <div className="flex items-center gap-2">
-            <div className="rounded-full p-2 bg-[#F8FEE5]">
-              <img src={icon1} alt="Cart" className="w-5 h-5" />
+        <div className="flex items-center gap-[10px]">
+          {/* Cart */}
+          <div className="flex items-center">
+            <div className="rounded-full p-[7px] md:p-[5px] 2xl:p-[10px] bg-[#F8FEE5]">
+              <img
+                src={icon1}
+                alt="Cart"
+                className="w-[16px] h-[16px] 2xl:w-[20px] 2xl:h-[20px]"
+              />
             </div>
-            <span className="text-[20px] font-normal tracking-[-0.05em]">
-              Cart(1)
-            </span>
+          </div>
+          <div className="hidden 2xl:inline-block mr-[11px] 2xl:text-[20px] tracking-[-0.05em]">
+            Cart(1)
+          </div>
+          {/* Wishlist */}
+          <div className="rounded-full p-[7px] md:p-[5px] 2xl:p-[10px] bg-[#F8FEE5]">
+            <img
+              src={icon2}
+              alt="Wishlist"
+              className="w-[16px] h-[16px] 2xl:w-[20px] 2xl:h-[20px]"
+            />
           </div>
 
-          {/* Heart Icon */}
-          <div className="rounded-full p-2 bg-[#F8FEE5]">
-            <img src={icon2} alt="Wishlist" className="w-5 h-5" />
-          </div>
-
-          {/* User Icon */}
-          <div className="rounded-full p-2 bg-[#F8FEE5]">
-            <img src={icon3} alt="User" className="w-5 h-5" />
+          {/* User */}
+          <div className="rounded-full p-[7px] md:p-[5px] 2xl:p-[10px] bg-[#F8FEE5]">
+            <img
+              src={icon3}
+              alt="User"
+              className="w-[16px] h-[16px] 2xl:w-[20px] 2xl:h-[20px]"
+            />
           </div>
         </div>
       </div>

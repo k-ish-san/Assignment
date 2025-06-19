@@ -7,6 +7,7 @@ import PromoBanner from "./components/PromoBanner";
 import ProductListing from "./components/ProductListing";
 import FAQSection from "./components/FAQSection";
 import Footer from "./components/Footer";
+import SkincareText from "./components/SkinCareText";
 
 function App() {
   return (
@@ -16,18 +17,19 @@ function App() {
         <Route
           path="/"
           element={
-            <div className="">
+            <div>
               <HeroSection />
+              <SkincareText />
               <FeatureSection />
               <ProductCarousel />
               <PromoBanner />
               <ProductListing />
               <FAQSection />
-              <Footer />
             </div>
           }
         />
       </Routes>
+      <Footer />
     </Router>
   );
 }

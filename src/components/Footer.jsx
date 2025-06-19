@@ -50,9 +50,9 @@ const Footer = () => {
       {/* Background Watermark Text (optional) */}
       {/* Watermark Text */}
       <div
-        className="relative flex justify-center text-center sm:w-[439px] md:w-[830px] lg:w-[2149px] z-0"
+        className="relative sm:left-[-19px] md:left-[-43px] lg:left-[-115px] flex justify-center text-center w-full z-0"
       >
-        <h1 className="text-[90px] leading-[60px] font-[900] text-trim leading-trim md:text-[170px] lg:text-[420px]  text-[#3D4B4680] opacity-50 lg:leading-none lg:font-[700] select-none">
+        <h1 className="sm:text-[90px] sm:tracking-[-0.05em] sm:leading-[60px] font-[900] text-trim leading-trim md:text-[170px] lg:text-[420px]  text-[#3D4B4680] opacity-50 lg:leading-none lg:font-[700] select-none uppercase">
           SKINCARE
         </h1>
       </div>
