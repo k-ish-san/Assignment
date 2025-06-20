@@ -6,7 +6,7 @@ const HeroSection = () => {
     <>
       <section className="relative bg-[#EFF5E1] text-[#2D3B36]">
         {/* FIRST ROW */}
-        <div className="flex  justify-center flex-col md:flex-row 2xl:flex-row 2xl:items-center 2xl:justify-center overflow-hidden">
+        <div className="flex justify-center flex-col md:flex-row 2xl:flex-row 2xl:items-center 2xl:justify-center overflow-hidden">
           {/* box1: Paragraph */}
           <p
             className="order-2 text-[16px] font-[400] leading-[22px] tracking-[-0.05em] w-[342px] mx-[30px] mt-[30px]
@@ -47,7 +47,7 @@ const HeroSection = () => {
         </div>
 
         {/* SECOND ROW */}
-        <div className="flex flex-col md:flex-row items-center justify-center z-0 mt-[50px] md:mt-[150px] 2xl:mt-[0px]">
+        <div className="flex flex-col md:flex-row items-center justify-center z-0 ">
           {/* Woman Image and Background Text */}
           <div className="order-1 relative flex justify-center items-center">
             {/* SKINCARE Text */}
@@ -65,7 +65,7 @@ const HeroSection = () => {
             <img
               src={womanImage}
               alt="Avocado woman"
-              className="w-[402px] relative z-10 object-cover mt-[50px]
+              className="w-[402px] z-10 object-cover mt-[50px]
                    md:mt-[150px] md:w-[360px]  
                    2xl:w-[610px] 2xl:mt-[100px] 2xl:rounded-3xl"
             />
@@ -103,7 +103,7 @@ const HeroSection = () => {
 
       {/* Shop Now Button */}
 
-      <button className="bg-[#2D3B36] text-[#EFF5E1] px-[50px] py-[19px] rounded-full w-[178px] h-[50px] hover:bg-black transition z-20 ml-[111px] mr-[113px] mt-[40px] relative flex items-center  md:absolute">
+      <button className="bg-[#2D3B36] text-[#EFF5E1] px-[50px] py-[19px] rounded-full w-[178px] h-[50px] hover:bg-black transition z-20 ml-[111px] mr-[113px] mt-[40px] relative flex items-center md:w-[138px] md:bottom-[322px] md:left-[60%] 2xl:left-[41px] 2xl:bottom-[456px] 2xl:w-[180px] ">
         Shop Now
       </button>
     </>
