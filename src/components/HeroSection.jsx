@@ -41,7 +41,7 @@ const HeroSection = () => {
             <img
               src={plumProduct}
               alt="Plum Product"
-              className="w-[402px] md:w-[335.93px] md:h-[332px] 2xl:w-[222px] 2xl:rounded-3xl p-0"
+              className="w-[402px] md:w-[335.93px] md:h-[332px] 2xl:w-[222px] 2xl:h-[220px] 2xl:rounded-3xl p-0"
             />
           </div>
         </div>
