@@ -72,7 +72,7 @@ const HeroSection = () => {
 
             {/* Speech Bubble */}
             <div
-              className="absolute  left-1/2 -translate-x-1/2 z-10 flex items-center bg-[#EFF5E1]  rounded-full border border-[#2D3B36] 
+              className="absolute z-10 flex items-center justify-center bg-[#EFF5E1]  rounded-full border border-[#2D3B36] 
                       w-[332px] bottom-[30px]  h-[80px]
                       md:w-[318px] md:h-[67px] md:bottom-[20px] 
                       2xl:w-[476px] 2xl:h-[100px] 2xl:bottom-[30px]"
@@ -84,7 +84,7 @@ const HeroSection = () => {
                      md:w-[51px] md:h-[50px] md:m-[8px]
                      2xl:w-[80px] 2xl:h-[80px] 2xl:m-[10px]"
               />
-              <span className="text-[14px] ml-[20px] mr-[28px] my-[26px] md:my-[20px] md:ml-[15px] md:mr-[30px] 2xl:ml-[42px] 2xl:mr-[40px] 2xl:mt-[31px] 2xl:text-[20px] 2xl:w-[304px]">
+              <span className="text-[14px] ml-[20px] mr-[28px] my-[26px] md:my-[20px] md:ml-[15px] md:mr-[30px] 2xl:ml-[38px] 2xl:mr-[40px] 2xl:mt-[31px] 2xl:mb-[30px] 2xl:text-[20px] 2xl:w-[304px]">
                 While giving you an invigorating cleansing experience.
               </span>
             </div>
