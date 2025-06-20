@@ -21,7 +21,7 @@ const HeroSection = () => {
           <h1
             className="order-1 relative text-[75px] font-[900] leading-[60px] tracking-[-0.05em] uppercase ml-[-12px] mr-[-47px] mt-[98px] w-[461px] 
                    md:order-2 md:absolute md:mt-[362px] md:z-20 md:text-[135px] md:leading-[110px] md:tracking-[-0.03em] md:font-[800] md:ml-[-35px] md:mr-[-51px] md:w-[830px]
-                   2xl:top-0 2xl:relative 2xl:font-[700] 2xl:leading-[90px] 2xl:text-[100px] 2xl:mr-[438px] 2xl:mt-[146px] 2xl:w-[398px]"
+                    2xl:relative 2xl:font-[700] 2xl:leading-[90px] 2xl:text-[100px] 2xl:mr-[438px] 2xl:mt-[146px] 2xl:w-[398px]"
           >
             GLOW
             <span className="inline-block sm:inline-block md:inline-block 2xl:hidden">
@@ -47,7 +47,7 @@ const HeroSection = () => {
         </div>
 
         {/* SECOND ROW */}
-        <div className="flex flex-col md:flex-row items-center justify-center z-0">
+        <div className="flex flex-col md:flex-row items-center justify-center z-0 mt-[50px] md:mt-[150px] 2xl:mt-[0px]">
           {/* Woman Image and Background Text */}
           <div className="order-1 relative flex justify-center items-center">
             {/* SKINCARE Text */}
@@ -65,7 +65,7 @@ const HeroSection = () => {
             <img
               src={womanImage}
               alt="Avocado woman"
-              className="w-[402px] relative z-10 object-cover  mt-[50px]
+              className="w-[402px] relative z-10 object-cover mt-[50px]
                    md:mt-[150px] md:w-[360px]  
                    2xl:w-[610px] 2xl:mt-[100px] 2xl:rounded-3xl"
             />
