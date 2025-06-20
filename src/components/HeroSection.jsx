@@ -6,12 +6,12 @@ const HeroSection = () => {
     <>
       <section className="relative bg-[#EFF5E1] text-[#2D3B36]">
         {/* FIRST ROW */}
-        <div className="flex flex-col md:flex-row 2xl:flex-row 2xl:items-center 2xl:justify-center 2xl:mx-[100px]">
+        <div className="flex flex-col md:flex-row 2xl:flex-row 2xl:items-center 2xl:justify-center ">
           {/* box1: Paragraph */}
           <p
             className="order-2 text-[16px] font-[400] leading-[22px] tracking-[-0.05em] w-[342px] mx-[30px] mt-[30px] mb-[50px]
                   md:order-1 md:indent-[74px] md:text-[14px] md:leading-[100%] md:mt-[242px] md:w-[234px] md:ml-[40px] md:mr-[93px]
-                  2xl:mr-none 2xl:indent-[105px] 2xl:text-[20px] 2xl:w-[335px] 2xl:mr-[326px] 2xl:mt-[229px]"
+                  2xl:mr-none 2xl:indent-[105px] 2xl:text-[20px] 2xl:w-[335px] 2xl:ml-[100px] 2xl:mr-[326px] 2xl:mt-[229px]"
           >
             Transform your skincare routine with premium products that restore,
             protect, and enhance your natural glow every day.
@@ -35,8 +35,8 @@ const HeroSection = () => {
 
           {/* box3: Product Image */}
           <div
-            className="hidden md:flex relative w-[402px] md:order-3 md:w-[335px] md:pt-[142px]
-                    2xl:w-[222px] 2xl:pt-[162px] z-10"
+            className="hidden md:flex relative w-[402px] md:order-3 md:w-[335px] md:mt-[142px]
+                    2xl:w-[222px] 2xl:mt-[162px] 2xl:mr-[100px] z-10 "
           >
             <img
               src={plumProduct}
