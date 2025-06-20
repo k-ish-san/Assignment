@@ -35,21 +35,21 @@ const HeroSection = () => {
 
           {/* box3: Product Image */}
           <div
-            className="hidden md:flex relative w-[402px] md:order-3 md:w-[335px] md:mt-[142px]
-                    2xl:w-[222px] 2xl:mt-[162px] 2xl:mr-[100px] z-10 "
+            className="hidden md:flex relative  md:order-3 md:mt-[142px]
+                     2xl:mt-[162px] 2xl:mr-[100px] z-10 p-0"
           >
             <img
               src={plumProduct}
               alt="Plum Product"
-              className="h-auto object-contain 2xl:rounded-3xl"
+              className="w-[402px] md:w-[335.93px] md:h-[332px] 2xl:w-[222px] 2xl:rounded-3xl p-0"
             />
           </div>
         </div>
 
         {/* SECOND ROW */}
-        <div className="flex flex-col md:flex-row items-center justify-center mt-10 z-0">
+        <div className="flex flex-col md:flex-row items-center justify-center z-0">
           {/* Woman Image and Background Text */}
-          <div className="order-1 mb-[39px] relative flex justify-center items-center">
+          <div className="order-1 relative flex justify-center items-center">
             {/* SKINCARE Text */}
             <div className="absolute bottom-[-78px] md:pb-0 2xl:-bottom-8 z-0">
               <div
@@ -67,7 +67,7 @@ const HeroSection = () => {
               alt="Avocado woman"
               className="w-[402px] relative z-10 object-cover 
                    md:mt-[150px] md:w-[360px]
-                   lg:w-[610px] 2xl:mt-[100px] 2xl:rounded-3xl"
+                   2xl:w-[610px] 2xl:mt-[100px] 2xl:rounded-3xl"
             />
 
             {/* Speech Bubble */}
@@ -102,12 +102,10 @@ const HeroSection = () => {
       </section>
 
       {/* Shop Now Button */}
-      
-          <button className="bg-[#2D3B36] text-[#EFF5E1] px-[50px] py-[19px] rounded-full w-[178px] h-[50px] hover:bg-black transition z-20 ml-[111px] mr-[113px] mt-[40px] relative flex items-center  md:absolute">
-            Shop Now
-          </button>
-       
-     
+
+      <button className="bg-[#2D3B36] text-[#EFF5E1] px-[50px] py-[19px] rounded-full w-[178px] h-[50px] hover:bg-black transition z-20 ml-[111px] mr-[113px] mt-[40px] relative flex items-center  md:absolute">
+        Shop Now
+      </button>
     </>
   );
 };
