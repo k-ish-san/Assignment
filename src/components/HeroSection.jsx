@@ -6,7 +6,7 @@ const HeroSection = () => {
     <>
       <section className="relative bg-[#EFF5E1] text-[#2D3B36]">
         {/* FIRST ROW */}
-        <div className="flex items-center justify-center flex-col md:flex-row 2xl:flex-row 2xl:items-center 2xl:justify-center overflow-hidden">
+        <div className="flex items-center md:items-start justify-center flex-col md:flex-row 2xl:flex-row 2xl:items-center 2xl:justify-center overflow-hidden">
           {/* box1: Paragraph */}
           <p
             className="order-2 text-[16px] font-[400] leading-[22px] tracking-[-0.05em] w-[342px] mx-[30px] mt-[30px]
@@ -103,7 +103,7 @@ const HeroSection = () => {
 
       {/* Shop Now Button */}
 
-      <button className="bg-[#2D3B36] text-[#EFF5E1] px-[50px] py-[19px] rounded-full w-[178px] h-[50px] hover:bg-black transition z-20 ml-[111px] mr-[113px] mt-[40px] relative flex items-center md:w-[138px] md:bottom-[322px] md:left-[60%] 2xl:left-[41px] 2xl:bottom-[456px] 2xl:w-[180px] ">
+      <button className="bg-[#2D3B36] text-[#EFF5E1] px-[50px] py-[19px] rounded-full w-[178px] h-[50px] hover:bg-black transition z-20 ml-[111px] mr-[113px] mt-[40px] relative flex items-center md:w-[138px] md:px-[30px] md:bottom-[322px] md:left-[60%] 2xl:left-[41px] 2xl:px-[41px] 2xl:py-[22px] 2xl:bottom-[456px] 2xl:w-[180px] 2xl:h-[60px] 2xl:text-[20px]">
         Shop Now
       </button>
     </>
