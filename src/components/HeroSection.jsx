@@ -54,7 +54,7 @@ const HeroSection = () => {
             <div className="absolute bottom-[-78px] md:pb-0 2xl:-bottom-8 z-0">
               <div
                 className="text-[#2D3B36] text-[85px] font-[800] uppercase mx-[-19px]
-                        md:text-[170px] md:mx-[-38px] md:tracking-[-0.05em]
+                        md:text-[170px] md:mx-[-38px] md:tracking-[-0.05em] md:mb-[20px]
                         2xl:text-[378px] 2xl:ml-[-18px] 2xl:mr-[-17px] 2xl:tracking-[0%] 2xl:leading-[100%]"
               >
                 SKINCARE
@@ -66,7 +66,7 @@ const HeroSection = () => {
               src={womanImage}
               alt="Avocado woman"
               className="w-[402px] relative z-10 object-cover 
-                   md:mt-[150px] md:w-[360px]
+                   md:mt-[150px] md:w-[360px] 
                    2xl:w-[610px] 2xl:mt-[100px] 2xl:rounded-3xl"
             />
 
@@ -74,7 +74,7 @@ const HeroSection = () => {
             <div
               className="absolute  left-1/2 -translate-x-1/2 z-10 flex items-center bg-[#EFF5E1]  rounded-full border border-[#2D3B36] 
                       w-[332px] bottom-[30px]  h-[80px]
-                      md:w-[318px] md:h-[67px] md:bottom-[20px]
+                      md:w-[318px] md:h-[67px] md:bottom-[20px] 
                       2xl:w-[476px] 2xl:h-[100px] 2xl:bottom-[30px]"
             >
               <img
