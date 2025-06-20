@@ -6,7 +6,7 @@ const HeroSection = () => {
     <>
       <section className="relative bg-[#EFF5E1] text-[#2D3B36]">
         {/* FIRST ROW */}
-        <div className="flex flex-col md:flex-row 2xl:flex-row 2xl:items-center 2xl:justify-center overflow-hidden">
+        <div className="flex  justify-center flex-col md:flex-row 2xl:flex-row 2xl:items-center 2xl:justify-center overflow-hidden">
           {/* box1: Paragraph */}
           <p
             className="order-2 text-[16px] font-[400] leading-[22px] tracking-[-0.05em] w-[342px] mx-[30px] mt-[30px]
@@ -19,8 +19,8 @@ const HeroSection = () => {
 
           {/* box2: Heading */}
           <h1
-            className="order-1 relative text-[75px] font-[900] leading-[60px] tracking-[-0.05em] uppercase ml-[-12px] mr-[-47px] mt-[98px]
-                   md:order-2 md:absolute md:mt-[362px] md:z-20 md:text-[135px] md:leading-[110px] md:tracking-[-0.03em] md:font-[800] md:ml-[-35px] md:mr-[-51px]
+            className="order-1 relative text-[75px] font-[900] leading-[60px] tracking-[-0.05em] uppercase ml-[-12px] mr-[-47px] mt-[98px] w-[461px] 
+                   md:order-2 md:absolute md:mt-[362px] md:z-20 md:text-[135px] md:leading-[110px] md:tracking-[-0.03em] md:font-[800] md:ml-[-35px] md:mr-[-51px] md:w-[830px]
                    2xl:top-0 2xl:relative 2xl:font-[700] 2xl:leading-[90px] 2xl:text-[100px] 2xl:mr-[438px] 2xl:mt-[146px] 2xl:w-[398px]"
           >
             GLOW
