@@ -9,7 +9,7 @@ const HeroSection = () => {
         <div className="flex flex-col md:flex-row 2xl:flex-row 2xl:items-center 2xl:justify-center overflow-hidden">
           {/* box1: Paragraph */}
           <p
-            className="order-2 text-[16px] font-[400] leading-[22px] tracking-[-0.05em] w-[342px] mx-[30px] mt-[30px] mb-[50px]
+            className="order-2 text-[16px] font-[400] leading-[22px] tracking-[-0.05em] w-[342px] mx-[30px] mt-[30px]
                   md:order-1 md:indent-[74px] md:text-[14px] md:leading-[100%] md:mt-[242px] md:w-[234px] md:ml-[40px] md:mr-[93px]
                   2xl:mr-none 2xl:indent-[105px] 2xl:text-[20px] 2xl:w-[335px] 2xl:ml-[100px] 2xl:mr-[326px] 2xl:mt-[229px]"
           >
@@ -20,7 +20,7 @@ const HeroSection = () => {
           {/* box2: Heading */}
           <h1
             className="order-1 relative text-[75px] font-[900] leading-[60px] tracking-[-0.05em] uppercase ml-[-12px] mr-[-47px] mt-[98px]
-                   md:order-2 md:absolute md:mt-[376px] md:z-20 md:text-[135px] md:leading-[110px] md:tracking-[-0.03em] md:font-[800] md:ml-[-35px] md:mr-[-51px]
+                   md:order-2 md:absolute md:mt-[362px] md:z-20 md:text-[135px] md:leading-[110px] md:tracking-[-0.03em] md:font-[800] md:ml-[-35px] md:mr-[-51px]
                    2xl:top-0 2xl:relative 2xl:font-[700] 2xl:leading-[90px] 2xl:text-[100px] 2xl:mr-[438px] 2xl:mt-[146px] 2xl:w-[398px]"
           >
             GLOW
@@ -54,7 +54,7 @@ const HeroSection = () => {
             <div className="absolute bottom-[-78px] md:pb-0 2xl:-bottom-8 z-0">
               <div
                 className="text-[#2D3B36] text-[85px] font-[800] uppercase mx-[-19px]
-                        md:text-[170px] md:mx-[-38px] md:tracking-[-0.05em] md:mb-[20px]
+                        md:text-[170px] md:mx-[-38px] md:tracking-[-0.05em] md:mb-[20px] 
                         2xl:text-[378px] 2xl:ml-[-18px] 2xl:mr-[-17px] 2xl:tracking-[0%] 2xl:leading-[100%]"
               >
                 SKINCARE
@@ -65,8 +65,8 @@ const HeroSection = () => {
             <img
               src={womanImage}
               alt="Avocado woman"
-              className="w-[402px] relative z-10 object-cover 
-                   md:mt-[150px] md:w-[360px] 
+              className="w-[402px] relative z-10 object-cover  mt-[50px]
+                   md:mt-[150px] md:w-[360px]  
                    2xl:w-[610px] 2xl:mt-[100px] 2xl:rounded-3xl"
             />
 
@@ -91,7 +91,7 @@ const HeroSection = () => {
           </div>
 
           {/* Mobile Only Product Image */}
-          <div className="order-2 flex w-[402px] md:hidden z-10">
+          <div className="order-2 mt-[40px] flex w-[402px] md:hidden z-10">
             <img
               src={plumProduct}
               alt="Plum Product"
