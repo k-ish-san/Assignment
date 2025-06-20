@@ -6,7 +6,7 @@ const HeroSection = () => {
     <>
       <section className="relative bg-[#EFF5E1] text-[#2D3B36]">
         {/* FIRST ROW */}
-        <div className="flex justify-center flex-col md:flex-row 2xl:flex-row 2xl:items-center 2xl:justify-center overflow-hidden">
+        <div className="flex items-center justify-center flex-col md:flex-row 2xl:flex-row 2xl:items-center 2xl:justify-center overflow-hidden">
           {/* box1: Paragraph */}
           <p
             className="order-2 text-[16px] font-[400] leading-[22px] tracking-[-0.05em] w-[342px] mx-[30px] mt-[30px]
