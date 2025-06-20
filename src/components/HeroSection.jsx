@@ -51,10 +51,10 @@ const HeroSection = () => {
           {/* Woman Image and Background Text */}
           <div className="order-1 relative flex justify-center items-center">
             {/* SKINCARE Text */}
-            <div className="absolute bottom-[-78px] md:pb-0 2xl:-bottom-8 z-0">
+            <div className="absolute bottom-[-78px]  2xl:-bottom-[55px] z-0">
               <div
                 className="text-[#2D3B36] text-[85px] font-[800] uppercase mx-[-19px]
-                        md:text-[170px] md:mx-[-38px] md:tracking-[-0.05em] md:mb-[20px] 
+                        md:text-[170px] md:mx-[-38px]  md:tracking-[-0.05em] md:mb-[20px] 
                         2xl:text-[378px] 2xl:ml-[-18px] 2xl:mr-[-17px] 2xl:tracking-[0%] 2xl:leading-[100%]"
               >
                 SKINCARE
