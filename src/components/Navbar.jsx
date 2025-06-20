@@ -8,9 +8,9 @@ const Navbar = () => {
     <nav className="bg-[#EFF5E1] text-[#2D3B36] font-inter">
       <div
         className="
-          pl-[30px] pt-[37px] pr-[37px] 
-          md:pl-[40px] md:pt-[40px] md:pr-[45px]
-          2xl:pl-[100px] 2xl:pt-[50px] 2xl:pr-[110px]
+          ml-[30px] pt-[37px] mr-[37px] 
+          md:ml-[40px] md:pt-[40px] md:mr-[45px]
+          2xl:ml-[100px] 2xl:pt-[50px] 2xl:mr-[110px]
           flex 
         "
       >
